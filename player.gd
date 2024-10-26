@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 const SPEED = 250.0
 const JUMP_VELOCITY = -400.0
-const VOID_THRESHOLD_Y = 700.0  # Adjust this value to define where the void starts
+const VOID_THRESHOLD_Y = 400.0  # Adjust this value to define where the void starts
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var spawn_point = Vector2(355, 100)  # Replace with your actual spawn position
