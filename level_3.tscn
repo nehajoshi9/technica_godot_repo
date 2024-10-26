@@ -1,11 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://lnxfxw2ixsik"]
+[gd_scene load_steps=10 format=3 uid="uid://lnxfxw2ixsik"]
 
 [ext_resource type="Script" path="res://level.gd" id="1_6nmes"]
 [ext_resource type="Texture2D" uid="uid://cmyw7fmkbaox3" path="res://monochrome_tilemap_transparent.png" id="2_r3qw4"]
 [ext_resource type="Texture2D" uid="uid://50rluwwf42uw" path="res://plx-1.jpg" id="2_y1hug"]
 [ext_resource type="PackedScene" uid="uid://bdyp538fqygcq" path="res://hud.tscn" id="3_dypo0"]
 [ext_resource type="PackedScene" uid="uid://cboi8hec4yf0c" path="res://player.tscn" id="4_yveg6"]
-[ext_resource type="PackedScene" uid="uid://clikcsot5ncta" path="res://door.tscn" id="5_i6qe7"]
 [ext_resource type="PackedScene" uid="uid://dypev0qrj3e6s" path="res://gem.tscn" id="6_4b87s"]
 [ext_resource type="AudioStream" uid="uid://icmqlmr251kc" path="res://annoyingwaltz.wav" id="7_3dymv"]
 
@@ -578,19 +577,6 @@ layer_0/tile_data = PackedInt32Array(1048599, 524288, 4, 1048600, 524288, 4, 104
 [node name="Player" parent="." instance=ExtResource("4_yveg6")]
 position = Vector2(360, 251)
 
-[node name="Door" parent="." instance=ExtResource("5_i6qe7")]
-position = Vector2(336, 250)
-level = "res://level_1.tscn"
-
-[node name="Label" type="Label" parent="Door"]
-visible = false
-offset_left = -24.0
-offset_top = -34.0
-offset_right = 30.0
-offset_bottom = -8.0
-text = "Level 2
-"
-
 [node name="Gems" type="Node" parent="."]
 
 [node name="Gem" parent="Gems" instance=ExtResource("6_4b87s")]
@@ -606,7 +592,7 @@ position = Vector2(581, 141)
 position = Vector2(660, 148)
 
 [node name="Gem5" parent="Gems" instance=ExtResource("6_4b87s")]
-position = Vector2(832, 224)
+position = Vector2(836, 212)
 
 [node name="Gem6" parent="Gems" instance=ExtResource("6_4b87s")]
 position = Vector2(768, 258)
@@ -615,5 +601,3 @@ position = Vector2(768, 258)
 stream = ExtResource("7_3dymv")
 volume_db = -5.0
 autoplay = true
-
-[connection signal="player_entered" from="Door" to="." method="_on_door_player_entered"]

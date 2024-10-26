@@ -11,7 +11,7 @@ offset_top = 45.0
 offset_right = 1155.0
 offset_bottom = 71.0
 theme_type_variation = &"HeaderLarge"
-text = "2D Platformer"
+text = "EartHeart <3"
 horizontal_alignment = 1
 
 [node name="Options" type="VFlowContainer" parent="."]
