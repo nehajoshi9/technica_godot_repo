@@ -558,6 +558,7 @@ offset_right = 659.0
 offset_bottom = 332.0
 texture = ExtResource("2_6ay36")
 expand_mode = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect" type="ColorRect" parent="ParallaxBackground/ParallaxLayer"]
 offset_left = 28.0
@@ -565,6 +566,7 @@ offset_top = 332.0
 offset_right = 711.0
 offset_bottom = 594.0
 color = Color(0.0352941, 0.247059, 0.184314, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_3cahp")
@@ -578,7 +580,7 @@ position = Vector2(400, 184)
 
 [node name="Door" parent="." instance=ExtResource("4_hvikv")]
 position = Vector2(1256, 200)
-level = "res://level_2.tscn"
+level = "res://level_3.tscn"
 
 [node name="Label" type="Label" parent="Door"]
 offset_left = -24.0
