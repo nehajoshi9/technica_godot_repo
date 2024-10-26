@@ -604,7 +604,7 @@ position = Vector2(696, 209)
 position = Vector2(752, 136)
 
 [node name="Gem5" parent="Gems" instance=ExtResource("5_lq6yu")]
-position = Vector2(856, 184)
+position = Vector2(875, 178)
 
 [node name="Gem6" parent="Gems" instance=ExtResource("5_lq6yu")]
 position = Vector2(1015, 165)

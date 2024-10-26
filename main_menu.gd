@@ -3,7 +3,7 @@ extends Node2D
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	print("MainMenu ready!")
-	$Options/StartButton.grab_focus()
+	$HBoxContainer/StartButton.grab_focus()
 	
 	if !OS.has_feature("pc"):
 		$Options/FullscreenButton.hide()
