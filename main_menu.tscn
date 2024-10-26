@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://dh2na2l3qky5b"]
+[gd_scene load_steps=5 format=3 uid="uid://dh2na2l3qky5b"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_r02ye"]
+[ext_resource type="Texture2D" uid="uid://cto58ykl1subc" path="res://pixil-frame-0 5.png" id="2_33638"]
+[ext_resource type="Texture2D" uid="uid://dn1e4qkmofmw4" path="res://pixil-frame-0 6.png" id="3_gauxa"]
+[ext_resource type="Texture2D" uid="uid://baoqwl4pruojy" path="res://pixil-frame-0 7.png" id="4_7ue3p"]
 
 [node name="MainMenu" type="Node2D"]
 script = ExtResource("1_r02ye")
@@ -20,17 +23,17 @@ offset_top = 226.0
 offset_right = 654.0
 offset_bottom = 465.0
 
-[node name="StartButton" type="Button" parent="Options"]
+[node name="StartButton" type="TextureButton" parent="Options"]
 layout_mode = 2
-text = "Start"
+texture_normal = ExtResource("2_33638")
 
-[node name="FullscreenButton" type="Button" parent="Options"]
+[node name="FullscreenButton" type="TextureButton" parent="Options"]
 layout_mode = 2
-text = "Toggle Fullscreen"
+texture_normal = ExtResource("3_gauxa")
 
-[node name="QuitButton" type="Button" parent="Options"]
+[node name="QuitButton" type="TextureButton" parent="Options"]
 layout_mode = 2
-text = "Quit"
+texture_normal = ExtResource("4_7ue3p")
 
 [connection signal="pressed" from="Options/StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="Options/FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
