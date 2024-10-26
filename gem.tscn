@@ -1,21 +1,17 @@
-[gd_scene load_steps=7 format=3 uid="uid://dypev0qrj3e6s"]
+[gd_scene load_steps=6 format=3 uid="uid://dypev0qrj3e6s"]
 
-[ext_resource type="Texture2D" uid="uid://cmyw7fmkbaox3" path="res://monochrome_tilemap_transparent.png" id="1_5m8k5"]
 [ext_resource type="Script" path="res://gem.gd" id="1_606fa"]
+[ext_resource type="Texture2D" uid="uid://bg6y500jfdsu6" path="res://k15gv84q33441.png" id="2_088ci"]
 [ext_resource type="AudioStream" uid="uid://dxjgadwscnl7q" path="res://gem.wav" id="3_hfxuq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_341ky"]
 size = Vector2(10, 14)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_nmvpb"]
-atlas = ExtResource("1_5m8k5")
-region = Rect2(34, 85, 16, 16)
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_bhs42"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_nmvpb")
+"texture": ExtResource("2_088ci")
 }],
 "loop": true,
 "name": &"default",
