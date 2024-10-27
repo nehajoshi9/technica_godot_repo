@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://lnxfxw2ixsik"]
+[gd_scene load_steps=11 format=3 uid="uid://lnxfxw2ixsik"]
 
 [ext_resource type="Script" path="res://level.gd" id="1_6nmes"]
 [ext_resource type="Texture2D" uid="uid://cmyw7fmkbaox3" path="res://monochrome_tilemap_transparent.png" id="2_r3qw4"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://cboi8hec4yf0c" path="res://player.tscn" id="4_yveg6"]
 [ext_resource type="PackedScene" uid="uid://dypev0qrj3e6s" path="res://gem.tscn" id="6_4b87s"]
 [ext_resource type="AudioStream" uid="uid://14cjxbcln3ps" path="res://Dogs.mp3" id="7_a0efi"]
+[ext_resource type="PackedScene" uid="uid://clikcsot5ncta" path="res://door.tscn" id="8_lwcgr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6issp"]
 resource_name = "Tilemap"
@@ -608,3 +609,9 @@ stream = ExtResource("7_a0efi")
 volume_db = -5.0
 autoplay = true
 parameters/looping = true
+
+[node name="Door" parent="." instance=ExtResource("8_lwcgr")]
+position = Vector2(889, 248)
+level = "res://level_4.tscn"
+
+[connection signal="player_entered" from="Door" to="." method="_on_door_player_entered"]

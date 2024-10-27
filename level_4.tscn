@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddppbd81wynld"]
+
+[ext_resource type="Texture2D" uid="uid://bojss3sm6w7lw" path="res://bca4bde9-4b74-4e9c-b7f6-10ab36f58a4c.png" id="1_8lkhn"]
+
+[node name="Level4" type="Node2D"]
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(580.195, 310.108)
+scale = Vector2(1.08888, 1.07132)
+texture = ExtResource("1_8lkhn")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 297.195
+offset_top = 190.108
+offset_right = 365.195
+offset_bottom = 213.108
+scale = Vector2(9, 9)
+text = "THE END
+"
