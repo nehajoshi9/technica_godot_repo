@@ -1,5 +1,4 @@
 extends Node2D
-
 @export var level_num = 0
 
 func _ready():
