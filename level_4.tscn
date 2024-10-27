@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://ddppbd81wynld"]
+[gd_scene load_steps=5 format=3 uid="uid://ddppbd81wynld"]
 
 [ext_resource type="Texture2D" uid="uid://bojss3sm6w7lw" path="res://bca4bde9-4b74-4e9c-b7f6-10ab36f58a4c.png" id="1_8lkhn"]
 [ext_resource type="Texture2D" uid="uid://cjrme86ai04mp" path="res://diologua.png" id="2_tjxsj"]
+[ext_resource type="FontFile" uid="uid://h6ebbltu4tpn" path="res://PixelifySans-VariableFont_wght.ttf" id="3_3wdus"]
+[ext_resource type="Script" path="res://congratsmsg.gd" id="3_yq2mb"]
 
 [node name="Level4" type="Node2D"]
 
@@ -16,11 +18,17 @@ scale = Vector2(15.2031, 8.16301)
 texture = ExtResource("2_tjxsj")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 413.0
-offset_top = 169.0
-offset_right = 481.0
-offset_bottom = 192.0
-scale = Vector2(5.20919, 5.6333)
+offset_left = 292.0
+offset_top = 140.0
+offset_right = 8292.0
+offset_bottom = 2140.0
+scale = Vector2(0.0748939, 0.111322)
 theme_override_colors/font_color = Color(0.0235294, 0.372549, 0.372549, 1)
-text = "THE END
+theme_override_fonts/font = ExtResource("3_3wdus")
+theme_override_font_sizes/font_size = 420
+text = "Congrats on collecting ___ trash! 
+Remember, picking up litter keeps the 
+earth healthy!
 "
+autowrap_mode = 1
+script = ExtResource("3_yq2mb")
