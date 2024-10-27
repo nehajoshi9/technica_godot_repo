@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 [gd_scene load_steps=6 format=3 uid="uid://ci0h82i3b17u"]
+=======
+[gd_scene load_steps=7 format=3 uid="uid://ddppbd81wynld"]
+>>>>>>> 8b8ecf258de0749a05c8abef7bfb2cef4509d3f4
 
 [ext_resource type="Texture2D" uid="uid://bojss3sm6w7lw" path="res://bca4bde9-4b74-4e9c-b7f6-10ab36f58a4c.png" id="1_8lkhn"]
 [ext_resource type="Script" path="res://endscreen.gd" id="1_j4t8i"]
 [ext_resource type="Texture2D" uid="uid://cjrme86ai04mp" path="res://diologua.png" id="2_tjxsj"]
 [ext_resource type="FontFile" uid="uid://h6ebbltu4tpn" path="res://PixelifySans-VariableFont_wght.ttf" id="3_3wdus"]
+[ext_resource type="Texture2D" uid="uid://bivwgd0xbuyi7" path="res://foxremoved.png" id="4_5bojf"]
 [ext_resource type="AudioStream" uid="uid://chyubq4ey0vhx" path="res://tadaa-47995.mp3" id="5_q5woi"]
 
 [node name="Level4" type="Node2D"]
@@ -15,15 +20,20 @@ scale = Vector2(1.17816, 1.19903)
 texture = ExtResource("1_8lkhn")
 
 [node name="dialoguebox" type="Sprite2D" parent="."]
-position = Vector2(448, 217)
+position = Vector2(449.155, 319.075)
 scale = Vector2(15.2031, 8.16301)
 texture = ExtResource("2_tjxsj")
 
+[node name="fox" type="Sprite2D" parent="."]
+position = Vector2(369.155, 173.075)
+scale = Vector2(0.0947164, 0.0968137)
+texture = ExtResource("4_5bojf")
+
 [node name="Label" type="Label" parent="."]
-offset_left = 292.0
-offset_top = 140.0
-offset_right = 8292.0
-offset_bottom = 2140.0
+offset_left = 293.155
+offset_top = 242.075
+offset_right = 8293.16
+offset_bottom = 2242.08
 scale = Vector2(0.0748939, 0.111654)
 theme_override_colors/font_color = Color(0.0235294, 0.372549, 0.372549, 1)
 theme_override_fonts/font = ExtResource("3_3wdus")
@@ -38,3 +48,5 @@ autowrap_mode = 1
 stream = ExtResource("5_q5woi")
 volume_db = -5.0
 autoplay = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
