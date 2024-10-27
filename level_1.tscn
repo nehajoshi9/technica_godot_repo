@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://vqvucquny67u"]
+[gd_scene load_steps=13 format=3 uid="uid://vqvucquny67u"]
 
 [ext_resource type="Script" path="res://level.gd" id="1_g3s30"]
 [ext_resource type="Texture2D" uid="uid://50rluwwf42uw" path="res://plx-1.jpg" id="2_6ay36"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dypev0qrj3e6s" path="res://gem.tscn" id="5_lq6yu"]
 [ext_resource type="FontFile" uid="uid://h6ebbltu4tpn" path="res://PixelifySans-VariableFont_wght.ttf" id="7_7xtmw"]
 [ext_resource type="AudioStream" uid="uid://14cjxbcln3ps" path="res://Dogs.mp3" id="8_ivoe2"]
+[ext_resource type="Texture2D" uid="uid://cjrme86ai04mp" path="res://diologua.png" id="10_w11mw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6issp"]
 resource_name = "Tilemap"
@@ -627,5 +628,65 @@ stream = ExtResource("8_ivoe2")
 volume_db = -8.0
 autoplay = true
 parameters/looping = true
+
+[node name="dialoguebox" type="Sprite2D" parent="."]
+position = Vector2(508, 61)
+scale = Vector2(1.93039, 1.30075)
+texture = ExtResource("10_w11mw")
+
+[node name="Label" type="Label" parent="dialoguebox"]
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 5688.0
+offset_bottom = 2527.0
+scale = Vector2(0.007, 0.01)
+theme_override_colors/font_color = Color(0.0235294, 0.372549, 0.372549, 1)
+theme_override_fonts/font = ExtResource("7_7xtmw")
+theme_override_font_sizes/font_size = 420
+text = "Did you know? Methane 
+has over 25 times the 
+impact on global warming
+than carbon dioxide over a 100-year period!"
+autowrap_mode = 1
+
+[node name="dialoguebox2" type="Sprite2D" parent="."]
+position = Vector2(714, 266)
+scale = Vector2(3.45893, 2.35134)
+texture = ExtResource("10_w11mw")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 671.0
+offset_top = 239.0
+offset_right = 9771.0
+offset_bottom = 3439.0
+scale = Vector2(0.017, 0.025)
+theme_override_colors/font_color = Color(0.0235294, 0.372549, 0.372549, 1)
+theme_override_fonts/font = ExtResource("7_7xtmw")
+theme_override_font_sizes/font_size = 420
+text = "Trees release water vapor through a 
+process called transpiration, which cools 
+the air around them, creating a natural 
+cooling effect in forests and urban areas 
+with a lot of greenery."
+autowrap_mode = 1
+
+[node name="dialoguebox3" type="Sprite2D" parent="."]
+position = Vector2(1156.5, 254.183)
+scale = Vector2(1.75, 2.27269)
+texture = ExtResource("10_w11mw")
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 1143.0
+offset_top = 233.0
+offset_right = 5758.0
+offset_bottom = 3833.0
+scale = Vector2(0.013, 0.02)
+theme_override_colors/font_color = Color(0.0235294, 0.372549, 0.372549, 1)
+theme_override_fonts/font = ExtResource("7_7xtmw")
+theme_override_font_sizes/font_size = 420
+text = "Coral reefs act as
+natural barriers that protect coastlines from waves, storms,
+and floods."
+autowrap_mode = 1
 
 [connection signal="player_entered" from="Door" to="." method="_on_door_player_entered"]
