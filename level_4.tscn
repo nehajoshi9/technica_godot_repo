@@ -1,15 +1,17 @@
-[gd_scene load_steps=5 format=3 uid="uid://ddppbd81wynld"]
+[gd_scene load_steps=6 format=3 uid="uid://ddppbd81wynld"]
 
 [ext_resource type="Texture2D" uid="uid://bojss3sm6w7lw" path="res://bca4bde9-4b74-4e9c-b7f6-10ab36f58a4c.png" id="1_8lkhn"]
+[ext_resource type="Script" path="res://endscreen.gd" id="1_j4t8i"]
 [ext_resource type="Texture2D" uid="uid://cjrme86ai04mp" path="res://diologua.png" id="2_tjxsj"]
 [ext_resource type="FontFile" uid="uid://h6ebbltu4tpn" path="res://PixelifySans-VariableFont_wght.ttf" id="3_3wdus"]
-[ext_resource type="Script" path="res://congratsmsg.gd" id="3_yq2mb"]
+[ext_resource type="AudioStream" uid="uid://chyubq4ey0vhx" path="res://tadaa-47995.mp3" id="5_q5woi"]
 
 [node name="Level4" type="Node2D"]
+script = ExtResource("1_j4t8i")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(580.195, 310.108)
-scale = Vector2(1.08888, 1.07132)
+scale = Vector2(1.17816, 1.19903)
 texture = ExtResource("1_8lkhn")
 
 [node name="dialoguebox" type="Sprite2D" parent="."]
@@ -22,7 +24,7 @@ offset_left = 292.0
 offset_top = 140.0
 offset_right = 8292.0
 offset_bottom = 2140.0
-scale = Vector2(0.0748939, 0.111322)
+scale = Vector2(0.0748939, 0.111654)
 theme_override_colors/font_color = Color(0.0235294, 0.372549, 0.372549, 1)
 theme_override_fonts/font = ExtResource("3_3wdus")
 theme_override_font_sizes/font_size = 420
@@ -31,4 +33,8 @@ Remember, picking up litter keeps the
 earth healthy!
 "
 autowrap_mode = 1
-script = ExtResource("3_yq2mb")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_q5woi")
+volume_db = -5.0
+autoplay = true
