@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://cboi8hec4yf0c" path="res://player.tscn" id="3_kr5fw"]
 [ext_resource type="PackedScene" uid="uid://clikcsot5ncta" path="res://door.tscn" id="4_hvikv"]
 [ext_resource type="PackedScene" uid="uid://dypev0qrj3e6s" path="res://gem.tscn" id="5_lq6yu"]
-[ext_resource type="AudioStream" uid="uid://1vgh2yhyxy3a" path="res://actiontheme-v3.ogg" id="7_4horr"]
+[ext_resource type="AudioStream" uid="uid://14cjxbcln3ps" path="res://Dogs.mp3" id="8_ivoe2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6issp"]
 resource_name = "Tilemap"
@@ -619,7 +619,7 @@ position = Vector2(1104, 184)
 position = Vector2(1168, 192)
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("7_4horr")
+stream = ExtResource("8_ivoe2")
 volume_db = -8.0
 autoplay = true
 

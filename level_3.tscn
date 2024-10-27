@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bdyp538fqygcq" path="res://hud.tscn" id="3_dypo0"]
 [ext_resource type="PackedScene" uid="uid://cboi8hec4yf0c" path="res://player.tscn" id="4_yveg6"]
 [ext_resource type="PackedScene" uid="uid://dypev0qrj3e6s" path="res://gem.tscn" id="6_4b87s"]
-[ext_resource type="AudioStream" uid="uid://icmqlmr251kc" path="res://annoyingwaltz.wav" id="7_3dymv"]
+[ext_resource type="AudioStream" uid="uid://14cjxbcln3ps" path="res://Dogs.mp3" id="7_a0efi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6issp"]
 resource_name = "Tilemap"
@@ -604,6 +604,6 @@ position = Vector2(270, 180)
 position = Vector2(133, 150)
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("7_3dymv")
+stream = ExtResource("7_a0efi")
 volume_db = -5.0
 autoplay = true
