@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cbu10wa8sl6iv" path="res://pixil-frame-0 10.png" id="3_clbhw"]
 [ext_resource type="Texture2D" uid="uid://dn1e4qkmofmw4" path="res://pixil-frame-0 6.png" id="3_gauxa"]
 [ext_resource type="Texture2D" uid="uid://baoqwl4pruojy" path="res://pixil-frame-0 7.png" id="4_7ue3p"]
-[ext_resource type="Script" path="res://sprite_2d.gd" id="6_7exvn"]
+[ext_resource type="Script" path="res://eartheart.gd" id="4_hcv2m"]
 [ext_resource type="Texture2D" uid="uid://cw55otxfn7fqp" path="res://ccc156f4-ee5c-4638-b6f8-98e7c87c6508.png" id="6_yml4b"]
 [ext_resource type="Texture2D" uid="uid://bmmt58cu42svf" path="res://358d14b2-68c1-4fd4-b349-4224a5ef17de.png" id="7_dygt7"]
 [ext_resource type="Texture2D" uid="uid://cboqt5jhu6bgl" path="res://7df239c2-7657-4082-864e-fa29089eea7a.png" id="7_l251l"]
@@ -22,11 +22,11 @@ position = Vector2(609, 308)
 scale = Vector2(1.08888, 1.07132)
 texture = ExtResource("2_6wwla")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="EARTHEART" type="Sprite2D" parent="."]
 position = Vector2(610, 127.375)
 scale = Vector2(0.788, 1.10518)
 texture = ExtResource("3_clbhw")
-script = ExtResource("6_7exvn")
+script = ExtResource("4_hcv2m")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 offset_left = 344.0
