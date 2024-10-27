@@ -615,7 +615,7 @@ parameters/looping = true
 
 [node name="Door" parent="." instance=ExtResource("8_lwcgr")]
 position = Vector2(1001, 248)
-level = "res://level_4.tscn"
+level = "res://level_4b.tscn"
 
 [node name="Label" type="Label" parent="."]
 offset_left = 972.0
