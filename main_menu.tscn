@@ -1,48 +1,54 @@
-[gd_scene load_steps=6 format=3 uid="uid://dh2na2l3qky5b"]
+[gd_scene load_steps=8 format=3 uid="uid://dh2na2l3qky5b"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_r02ye"]
-[ext_resource type="Texture2D" uid="uid://dbw2rmg55gqgm" path="res://eartheart logo.jpg" id="2_1hrme"]
+[ext_resource type="Texture2D" uid="uid://bojss3sm6w7lw" path="res://bca4bde9-4b74-4e9c-b7f6-10ab36f58a4c.png" id="2_6wwla"]
 [ext_resource type="Texture2D" uid="uid://cto58ykl1subc" path="res://pixil-frame-0 5.png" id="2_33638"]
+[ext_resource type="Texture2D" uid="uid://cbu10wa8sl6iv" path="res://pixil-frame-0 10.png" id="3_clbhw"]
 [ext_resource type="Texture2D" uid="uid://dn1e4qkmofmw4" path="res://pixil-frame-0 6.png" id="3_gauxa"]
 [ext_resource type="Texture2D" uid="uid://baoqwl4pruojy" path="res://pixil-frame-0 7.png" id="4_7ue3p"]
+[ext_resource type="Script" path="res://sprite_2d.gd" id="6_7exvn"]
 
 [node name="MainMenu" type="Node2D"]
 script = ExtResource("1_r02ye")
 
-[node name="TextureRect" type="TextureRect" parent="."]
-offset_left = 168.0
-offset_top = 7.0
-offset_right = 1168.0
-offset_bottom = 171.0
-scale = Vector2(0.803247, 0.88137)
-texture = ExtResource("2_1hrme")
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(609, 308)
+scale = Vector2(1.08888, 1.07132)
+texture = ExtResource("2_6wwla")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(610, 127.375)
+scale = Vector2(0.788, 1.10518)
+texture = ExtResource("3_clbhw")
+script = ExtResource("6_7exvn")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
-offset_left = 400.0
-offset_top = 227.0
-offset_right = 483.0
-offset_bottom = 267.0
-scale = Vector2(4.49021, 5.39214)
-size_flags_horizontal = 3
+offset_left = 344.0
+offset_top = 213.0
+offset_right = 461.0
+offset_bottom = 252.0
+scale = Vector2(5.59209, 6.21081)
+size_flags_horizontal = 6
 size_flags_vertical = 3
+metadata/_edit_use_anchors_ = true
 
 [node name="StartButton" type="TextureButton" parent="HBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 texture_normal = ExtResource("2_33638")
 
 [node name="FullscreenButton" type="TextureButton" parent="HBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 texture_normal = ExtResource("3_gauxa")
 
 [node name="QuitButton" type="TextureButton" parent="HBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 texture_normal = ExtResource("4_7ue3p")
-
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_left = 162.0
-offset_top = -121.0
-offset_right = 202.0
-offset_bottom = -81.0
 
 [connection signal="pressed" from="HBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="HBoxContainer/FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
