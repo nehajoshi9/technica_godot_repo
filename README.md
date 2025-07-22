@@ -1,3 +1,5 @@
+## Try it out!
+https://nehajoshi9.github.io/technica_godot_repo/
 
 ## Inspiration
 We were inspired by 2D side-scrolling platformer games, but decided that we wanted to make our project educational and teach users about the environment.
