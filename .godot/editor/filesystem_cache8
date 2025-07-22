@@ -1,0 +1,74 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1753206262
+5ce9df4a-5cbd-41d1-b6f7-c6bd3a7b4182.png::CompressedTexture2D::4860613928915320030::1753206261::1753206298::1::::<><>::
+7df239c2-7657-4082-864e-fa29089eea7a.png::CompressedTexture2D::4872938491499266355::1753206261::1753206298::1::::<><>::
+68c5209d-bb50-4cfa-b65c-5ae4c5a6dd4d.png::CompressedTexture2D::3522782395845509748::1753206261::1753206298::1::::<><>::
+358d14b2-68c1-4fd4-b349-4224a5ef17de.png::CompressedTexture2D::3254668274386625215::1753206261::1753206298::1::::<><>::
+actiontheme-v3.ogg::AudioStreamOggVorbis::1868640125494842928::1753206262::1753206298::1::::<><>::
+annoyingwaltz.wav::AudioStreamWAV::566397278332251902::1753206262::1753206298::1::::<><>::
+area_2d.gd::GDScript::-1::1753206262::0::1::::<>Area2D<>::
+bca4bde9-4b74-4e9c-b7f6-10ab36f58a4c.png::CompressedTexture2D::3388770443620013996::1753206262::1753206298::1::::<><>::
+button.gd::GDScript::-1::1753206262::0::1::::<>Sprite2D<>::
+c8a2217c-b945-40a7-bb01-ed4d1387feff.png::CompressedTexture2D::9144843194060765916::1753206262::1753206298::1::::<><>::
+ccc156f4-ee5c-4638-b6f8-98e7c87c6508.png::CompressedTexture2D::6380774804662338163::1753206262::1753206298::1::::<><>::
+character_body_2d.gd::GDScript::-1::1753206262::0::1::::<>CharacterBody2D<>::
+congratsmsg.gd::GDScript::-1::1753206262::0::1::::<>RefCounted<>::
+control.gd::GDScript::-1::1753206262::0::1::::<>RefCounted<>::
+dialogue_box.png::CompressedTexture2D::4254367068002763763::1753206262::1753206298::1::::<><>::
+diologua.png::CompressedTexture2D::5440372910207525795::1753206262::1753206298::1::::<><>::
+Dogs.mp3::AudioStreamMP3::1884915605275224600::1753206261::1753206298::1::::<><>::
+don't use this.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+door.gd::GDScript::-1::1753206262::0::1::::<>Area2D<>::
+door.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+eartheart.gd::GDScript::-1::1753206262::0::1::::<>Sprite2D<>::
+endscreen.gd::GDScript::-1::1753206262::0::1::::<>Node2D<>::
+export_presets.cfg::TextFile::-1::1753206262::0::1::::<><>::
+fioea.png::CompressedTexture2D::3234283849954321788::1753206262::1753206298::1::::<><>::
+foxremoved.png::CompressedTexture2D::2992630051474233056::1753206262::1753206298::1::::<><>::
+foxy.png::CompressedTexture2D::7282189039382373941::1753206262::1753206298::1::::<><>::
+fullscreen_button.gd::GDScript::-1::1753206262::0::1::::<>TextureButton<>::
+gem.gd::GDScript::-1::1753206262::0::1::::<>Area2D<>::
+gem.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+gem.wav::AudioStreamWAV::8792549348873967428::1753206262::1753206298::1::::<><>::
+global.gd::GDScript::-1::1753206262::0::1::::<>Node<>::
+hud.gd::GDScript::-1::1753206262::0::1::::<>CanvasLayer<>::
+hud.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+h_box_container.gd::GDScript::-1::1753206262::0::1::::<>HBoxContainer<>::
+icon.png::CompressedTexture2D::8514982757710319793::1753206262::1753206298::1::::<><>::
+jump.wav::AudioStreamWAV::3951892934470448449::1753206262::1753206298::1::::<><>::
+k15gv84q33441.png::CompressedTexture2D::2873061589660294359::1753206262::1753206298::1::::<><>::
+level.gd::GDScript::-1::1753206262::0::1::::<>Node2D<>::
+level_1.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+level_2.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+level_3.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+level_4a.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+level_4b.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+main_menu.gd::GDScript::-1::1753206262::0::1::::<>Node2D<>::
+main_menu.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+monochrome_tilemap_transparent.png::CompressedTexture2D::5666045757995955506::1753206262::1753206298::1::::<><>::
+npc1.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+npc_1.gd::GDScript::-1::1753206262::0::1::::<>Sprite2D<>::
+PixelifySans-VariableFont_wght.ttf::FontFile::555562340014411295::1753206262::1753206298::1::::<><>::
+pixil-frame-0 5.png::CompressedTexture2D::6137212402591222404::1753206262::1753206298::1::::<><>::
+pixil-frame-0 6.png::CompressedTexture2D::8125686352359377601::1753206262::1753206298::1::::<><>::
+pixil-frame-0 7.png::CompressedTexture2D::2416333354861340370::1753206262::1753206298::1::::<><>::
+pixil-frame-0 9.png::CompressedTexture2D::7173092448948785343::1753206262::1753206298::1::::<><>::
+pixil-frame-0 10.png::CompressedTexture2D::4885942209802575161::1753206262::1753206298::1::::<><>::
+pixil-frame-0_2.png::CompressedTexture2D::5680172476231815768::1753206262::1753206298::1::::<><>::
+player.gd::GDScript::-1::1753206262::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::-1::1753206262::0::1::::<><>::
+plx-1.jpg::CompressedTexture2D::2158327671062582434::1753206262::1753206298::1::::<><>::
+quit_button.gd::GDScript::-1::1753206262::0::1::::<>TextureButton<>::
+README.md::TextFile::-1::1753206262::0::1::::<><>::
+sprite_2d.gd::GDScript::-1::1753206262::0::1::::<>Sprite2D<>::
+sprite_2d_2.gd::GDScript::-1::1753206262::0::1::::<>RefCounted<>::
+start_button.gd::GDScript::-1::1753206262::0::1::::<>TextureButton<>::
+tadaa-47995.mp3::AudioStreamMP3::5314925349986848865::1753206262::1753206298::1::::<><>::
+texture_rect_2.gd::GDScript::-1::1753206262::0::1::::<>TextureRect<>::
+::res://dialogue/::1753206262
+dialogue.tscn::PackedScene::6953548794277020641::1753206262::0::1::::<><>::uid://b1u32lp7r4t8n::::res://dialogue_box.png<>res://dialogue/question.gd
+question.gd::GDScript::-1::1753206262::0::1::::<>RichTextLabel<>::
+::res://EartheartWeb/::1753206261
+EartheartWeb.apple-touch-icon.png::CompressedTexture2D::2598182226488589417::1753206261::1753206298::1::::<><>::
+EartheartWeb.icon.png::CompressedTexture2D::9117258488312873230::1753206261::1753206298::1::::<><>::
+EartheartWeb.png::CompressedTexture2D::3077073050825803481::1753206261::1753206298::1::::<><>::

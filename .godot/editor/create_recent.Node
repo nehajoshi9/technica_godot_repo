@@ -1,0 +1,10 @@
+Sprite2D
+AudioStreamPlayer2D
+AspectRatioContainer
+Label
+TextureRect
+ColorRect
+HBoxContainer
+Camera2D
+ParallaxLayer
+ParallaxBackground
