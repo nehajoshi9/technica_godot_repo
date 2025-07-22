@@ -10,10 +10,10 @@ config_version=5
 
 [application]
 
-config/name="2DPlatformer"
+config/name="Eartheart"
 run/main_scene="res://main_menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.png"
+config/icon="res://358d14b2-68c1-4fd4-b349-4224a5ef17de.png"
 
 [autoload]
 
